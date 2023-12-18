@@ -110,9 +110,18 @@ ul {
   }
 }
 
+.label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  background-color: $color-accent;
+}
+
 .card {
   &__pic {
     aspect-ratio: 370/492;
+    position: relative;
 
     img {
       width: 100%;

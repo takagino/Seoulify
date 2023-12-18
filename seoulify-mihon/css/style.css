@@ -77,8 +77,17 @@ ul {
      object-fit: cover;
 }
 
+.label {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: inline-block;
+  background-color: #b79b6c;
+}
+
 .card__pic {
   aspect-ratio: 370/492;
+  position: relative;
 }
 .card__pic img {
   width: 100%;
