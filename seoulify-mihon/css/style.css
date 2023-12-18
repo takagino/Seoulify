@@ -89,13 +89,17 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: stretch;
   }
 }
 .post__item {
   margin-bottom: 4em;
   padding: 8em 3em;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 @media screen and (min-width: 800px) {
   .post__item {

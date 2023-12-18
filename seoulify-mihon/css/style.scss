@@ -116,7 +116,7 @@ ul {
     @include inner();
 
     @include mq(md) {
-      @include flex();
+      @include flex(stretch);
     }
   }
 
@@ -124,6 +124,7 @@ ul {
     margin-bottom: (56/14)+em;
     padding: (112/14)+em (42/14)+em;
     color: #fff;
+    @include flex();
 
     @include mq(md) {
       width: (560/1200)*100%;
