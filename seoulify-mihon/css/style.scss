@@ -115,6 +115,26 @@ ul {
   &__header {
     @include inner();
   }
+
+  &__body {
+    padding: (84/14)+em 0;
+    background-color: $color-bg;
+  }
+
+  &__list {
+    @include inner();
+    @include flex();
+    margin-bottom: -(56/14)+em;
+  }
+
+  &__item {
+    width: (370/800)*100%;
+    margin-bottom: (56/14)+em;
+
+    @include mq(md) {
+      width: (360/1200)*100%;
+    }
+  }
 }
 
 .post {
