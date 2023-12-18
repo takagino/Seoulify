@@ -49,4 +49,21 @@ ul {
   justify-content: space-between;
   align-items: center;
 }
+.gnav__item {
+  margin-left: 32px;
+}
+.gnav__link {
+  color: #32353c;
+  font-size: 1.1428571429rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+@media screen and (min-width: 800px) {
+  .gnav__link {
+    font-size: 1rem;
+  }
+}
+.gnav__link--current, .gnav__link:hover {
+  color: #b79b6c;
+}
 /*# sourceMappingURL=style.css.map */

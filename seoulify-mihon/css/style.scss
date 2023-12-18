@@ -79,5 +79,23 @@ ul {
     @include flex();
   }
 
-  &__item {}
+  &__item {
+    margin-left: 32px;
+  }
+
+  &__link {
+    color: $color-main;
+    font-size: (16/14)+rem;
+    font-weight: bold;
+    transition: .3s;
+
+    @include mq(md) {
+      font-size: (16/16)+rem;
+    }
+
+    &--current,
+    &:hover {
+      color: $color-accent;
+    }
+  }
 }
