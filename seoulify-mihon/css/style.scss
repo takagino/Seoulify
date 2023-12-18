@@ -111,6 +111,12 @@ ul {
 }
 
 /* about.html */
+.clothes {
+  &__header {
+    @include inner();
+  }
+}
+
 .post {
   &__inner {
     @include inner();

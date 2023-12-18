@@ -78,6 +78,13 @@ ul {
 }
 
 /* about.html */
+.clothes__header {
+  width: 88.8888888889%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .post__inner {
   width: 88.8888888889%;
   max-width: 1200px;
