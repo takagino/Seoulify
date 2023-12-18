@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+$color-main: #32353c;
+$color-accent: #b79b6c;
+$color-bg: #f4f4f4;
+
 $breakpoints: (
   "sm": "screen and (min-width: 400px)",
   "md": "screen and (min-width: 800px)",
@@ -25,4 +29,22 @@ $breakpoints: (
   flex-wrap: wrap;
   justify-content: $j;
   align-items: $a;
+}
+
+html {
+  font-size: (14/16)+em;
+  //font-size: (14/16em);
+
+  @include mq(md) {
+    font-size: (16/16)+em;
+  }
+}
+
+body {
+  color: $color-main;
+  font-family: Helvetica,
+    Arial,
+    sans-serif;
+  line-height: (24/14
+  );
 }

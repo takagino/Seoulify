@@ -1,2 +1,15 @@
+html {
+  font-size: 0.875em;
+}
+@media screen and (min-width: 800px) {
+  html {
+    font-size: 1em;
+  }
+}
 
+body {
+  color: #32353c;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.7142857143;
+}
 /*# sourceMappingURL=style.css.map */
