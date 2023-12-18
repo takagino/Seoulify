@@ -99,3 +99,13 @@ ul {
     }
   }
 }
+
+.visual {
+  margin-bottom: (84/14)+em;
+
+  &__pic {
+    width: 100%;
+    height: clamp(600px, 75vw, 800px);
+    object-fit: cover;
+  }
+}

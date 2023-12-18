@@ -66,4 +66,14 @@ ul {
 .gnav__link--current, .gnav__link:hover {
   color: #b79b6c;
 }
+
+.visual {
+  margin-bottom: 6em;
+}
+.visual__pic {
+  width: 100%;
+  height: clamp(600px, 75vw, 800px);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 /*# sourceMappingURL=style.css.map */
