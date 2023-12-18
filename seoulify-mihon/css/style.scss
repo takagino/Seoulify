@@ -110,6 +110,18 @@ ul {
   }
 }
 
+.card {
+  &__pic {
+    aspect-ratio: 370/492;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
 /* about.html */
 .clothes {
   &__header {

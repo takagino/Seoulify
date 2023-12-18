@@ -77,6 +77,16 @@ ul {
      object-fit: cover;
 }
 
+.card__pic {
+  aspect-ratio: 370/492;
+}
+.card__pic img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 /* about.html */
 .clothes__header {
   width: 88.8888888889%;
