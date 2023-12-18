@@ -109,3 +109,32 @@ ul {
     object-fit: cover;
   }
 }
+
+/* about.html */
+.post {
+  &__inner {
+    @include inner();
+
+    @include mq(md) {
+      @include flex();
+    }
+  }
+
+  &__item {
+    margin-bottom: (56/14)+em;
+    padding: (112/14)+em (42/14)+em;
+    color: #fff;
+
+    @include mq(md) {
+      width: (560/1200)*100%;
+    }
+
+    &.item01 {
+      background: url(../images/bg_post02.png) no-repeat center/cover;
+    }
+
+    &.item02 {
+      background: url(../images/bg_post03.png) no-repeat center/cover;
+    }
+  }
+}

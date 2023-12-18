@@ -76,4 +76,36 @@ ul {
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+/* about.html */
+.post__inner {
+  width: 88.8888888889%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (min-width: 800px) {
+  .post__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.post__item {
+  margin-bottom: 4em;
+  padding: 8em 3em;
+  color: #fff;
+}
+@media screen and (min-width: 800px) {
+  .post__item {
+    width: 46.6666666667%;
+  }
+}
+.post__item.item01 {
+  background: url(../images/bg_post02.png) no-repeat center/cover;
+}
+.post__item.item02 {
+  background: url(../images/bg_post03.png) no-repeat center/cover;
+}
 /*# sourceMappingURL=style.css.map */
